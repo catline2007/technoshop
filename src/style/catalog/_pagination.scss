@@ -1,0 +1,49 @@
+.pagination{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 21px;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 50px;
+
+  &__list{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+  }
+  &__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    border-color: transparent;
+    &_active{
+      border: 2px solid $color-main;
+      border-radius: 2px;
+      transition: background-color 0.2s easy;
+
+    }
+  }
+
+  &__arrow{
+    display: block;
+    width: 18px;
+    height: 18px;
+    background-image: url('img/Vector-right.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &_start{
+      transform: rotate(180deg);
+    }
+    &[href=""]{
+      opacity: 0.3;
+      pointer-events: none;
+    }
+  }
+
+}

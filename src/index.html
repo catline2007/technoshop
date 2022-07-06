@@ -15,174 +15,155 @@
 <body>
     <header class="header">
         <h2 class="visually-hidden">TechnoShop - Онлайн-магазин гаджетов</h2>
-        <div class="container"></div>
-        <a href="/">
-            <img class="header__logo" src="img/logo.svg" alt="Логотип TechnoShop">
-        </a>
-        <form class="heaher__search search"></form>
-        <input type="search" class="search__input">
-        <button class="search_button" area-label="Найти на сайте">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path d="M3.01809 3.01801C1.07184 4.96427 0 7.55192 0 10.3043C0 13.0567 1.07184 15.6443 3.01809 17.5905C4.9643 19.5367 7.55194 20.6086 10.3042 20.6086C12.8206 20.6086 15.199 19.7122 17.0757 18.0712L22.7984 23.7938C23.0733 24.0687 23.5189 24.0687 23.7938 23.7938C23.9312 23.6564 24 23.4763 24 23.2962C24 23.1161 23.9313 22.9359 23.7938 22.7985L18.0712 17.0758C19.7121 15.199 20.6086 12.8207 20.6086 10.3043C20.6086 7.55187 19.5367 4.96432 17.5905 3.01806C15.6443 1.07185 13.0567 4.77212e-07 10.3043 4.77212e-07C7.55194 4.77212e-07 4.9643 1.0718 3.01809 3.01801ZM16.5951 4.01345C20.0639 7.48226 20.0639 13.1263 16.5951 16.5951C13.1264 20.0638 7.48228 20.0638 4.01353 16.5951C2.27897 14.8605 1.41197 12.5828 1.41197 10.3042C1.41197 8.0263 2.27939 5.7476 4.01353 4.01341C7.48223 0.544736 13.1263 0.544737 16.5951 4.01345Z"/>
-          </svg>
-        </button>
-
-        <div class="header__nav">
-            <a href="tel:89149239223" class="header_phone" area-label="Позвонить">
-                <svg width="28" height="28" viewBox="0 0 28 28" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <path d="M5.93 12.185C8.09 16.43 11.57 19.895 15.815 22.07L19.115 18.77C19.52 18.365 20.12 18.23 20.645 18.41C22.325 18.965 24.14 19.265 26 19.265C26.825 19.265 27.5 19.94 27.5 20.765V26C27.5 26.825 26.825 27.5 26 27.5C11.915 27.5 0.5 16.085 0.5 2C0.5 1.175 1.175 0.5 2 0.5H7.25C8.075 0.5 8.75 1.175 8.75 2C8.75 3.875 9.05 5.675 9.605 7.355C9.77 7.88 9.65 8.465 9.23 8.885L5.93 12.185Z"/>
-            </svg>
-                <span>8 914 923 92 - 23</span>
+        <div class="container header__container">
+            <a href="/">
+                <img class="header__logo" src="img/logo.svg" alt="Логотип TechnoShop">
             </a>
 
-            <a href="cart.html" class="header__cart" area-label="Перейти в корзину">
-                <svg width="36" height="36" viewBox="0 0 36 36" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <path d="M35.9872 35.1034L33.0263 10.0423C32.977 9.63885 32.5822 9.32503 32.1381 9.32503H26.6605V7.80075C26.6605 3.49689 22.8114 0 18.074 0C13.3367 0 9.48756 3.49689 9.48756 7.80075V9.32503H3.86194C3.41781 9.32503 3.02303 9.63885 2.97369 10.0423L0.0128368 35.1034C-0.0365107 35.3275 0.0621842 35.5517 0.210227 35.731C0.358269 35.9103 0.605007 36 0.851744 36H35.1483C35.395 36 35.6417 35.9103 35.7898 35.731C35.9378 35.5517 36.0365 35.3275 35.9872 35.1034ZM25.7722 13.8531C26.2164 13.8531 26.5618 14.1669 26.5618 14.5704C26.5618 14.9738 26.2164 15.2877 25.7722 15.2877C25.3281 15.2877 24.9827 14.9738 24.9827 14.5704C24.9827 14.1669 25.3281 13.8531 25.7722 13.8531ZM11.2641 7.80075C11.2641 4.39352 14.3236 1.61395 18.074 1.61395C21.8244 1.61395 24.884 4.39352 24.884 7.80075V9.32503H11.2641V7.80075ZM10.3758 13.8531C10.8199 13.8531 11.1654 14.1669 11.1654 14.5704C11.1654 14.9738 10.8199 15.2877 10.3758 15.2877C9.93168 15.2877 9.58625 14.9738 9.58625 14.5704C9.58625 14.1669 9.93168 13.8531 10.3758 13.8531ZM1.88804 34.3412L4.6515 10.8941H9.48756V12.3736C8.50061 12.6874 7.80974 13.5392 7.80974 14.5255C7.80974 15.7808 8.94473 16.812 10.3265 16.812C11.7082 16.812 12.8432 15.7808 12.8432 14.5255C12.8432 13.5392 12.1523 12.6874 11.1654 12.3736V10.8941H24.7853V12.3736C23.7983 12.6874 23.1075 13.5392 23.1075 14.5255C23.1075 15.7808 24.2425 16.812 25.6242 16.812C27.0059 16.812 28.1409 15.7808 28.1409 14.5255C28.1409 13.5392 27.45 12.6874 26.4631 12.3736V10.8941H31.4965L34.26 34.3412H1.88804Z"/>
-              </svg>
-            </a>
+            <form class="header__search search">
+                <input type="search" class="search__input">
+                <button class="search__button" area-label="Найти на сайте">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.01809 3.01801C1.07184 4.96427 0 7.55192 0 10.3043C0 13.0567 1.07184 15.6443 3.01809 17.5905C4.9643 19.5367 7.55194 20.6086 10.3042 20.6086C12.8206 20.6086 15.199 19.7122 17.0757 18.0712L22.7984 23.7938C23.0733 24.0687 23.5189 24.0687 23.7938 23.7938C23.9312 23.6564 24 23.4763 24 23.2962C24 23.1161 23.9313 22.9359 23.7938 22.7985L18.0712 17.0758C19.7121 15.199 20.6086 12.8207 20.6086 10.3043C20.6086 7.55187 19.5367 4.96432 17.5905 3.01806C15.6443 1.07185 13.0567 4.77212e-07 10.3043 4.77212e-07C7.55194 4.77212e-07 4.9643 1.0718 3.01809 3.01801ZM16.5951 4.01345C20.0639 7.48226 20.0639 13.1263 16.5951 16.5951C13.1264 20.0638 7.48228 20.0638 4.01353 16.5951C2.27897 14.8605 1.41197 12.5828 1.41197 10.3042C1.41197 8.0263 2.27939 5.7476 4.01353 4.01341C7.48223 0.544736 13.1263 0.544737 16.5951 4.01345Z"/>
+                  </svg>
+                </button>
+            </form>
+
+            <div class="header__nav">
+                <a href="tel:89149239223" class="header__phone" area-label="Позвонить">
+                    <svg width="28" height="28" viewBox="0 0 28 28" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5.93 12.185C8.09 16.43 11.57 19.895 15.815 22.07L19.115 18.77C19.52 18.365 20.12 18.23 20.645 18.41C22.325 18.965 24.14 19.265 26 19.265C26.825 19.265 27.5 19.94 27.5 20.765V26C27.5 26.825 26.825 27.5 26 27.5C11.915 27.5 0.5 16.085 0.5 2C0.5 1.175 1.175 0.5 2 0.5H7.25C8.075 0.5 8.75 1.175 8.75 2C8.75 3.875 9.05 5.675 9.605 7.355C9.77 7.88 9.65 8.465 9.23 8.885L5.93 12.185Z"/>
+                </svg>
+                    <span>8 914 923 92 - 23</span>
+                </a>
+
+                <a href="cart.html" class="header__cart" area-label="Перейти в корзину">
+                    <svg width="36" height="36" viewBox="0 0 36 36" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M35.9872 35.1034L33.0263 10.0423C32.977 9.63885 32.5822 9.32503 32.1381 9.32503H26.6605V7.80075C26.6605 3.49689 22.8114 0 18.074 0C13.3367 0 9.48756 3.49689 9.48756 7.80075V9.32503H3.86194C3.41781 9.32503 3.02303 9.63885 2.97369 10.0423L0.0128368 35.1034C-0.0365107 35.3275 0.0621842 35.5517 0.210227 35.731C0.358269 35.9103 0.605007 36 0.851744 36H35.1483C35.395 36 35.6417 35.9103 35.7898 35.731C35.9378 35.5517 36.0365 35.3275 35.9872 35.1034ZM25.7722 13.8531C26.2164 13.8531 26.5618 14.1669 26.5618 14.5704C26.5618 14.9738 26.2164 15.2877 25.7722 15.2877C25.3281 15.2877 24.9827 14.9738 24.9827 14.5704C24.9827 14.1669 25.3281 13.8531 25.7722 13.8531ZM11.2641 7.80075C11.2641 4.39352 14.3236 1.61395 18.074 1.61395C21.8244 1.61395 24.884 4.39352 24.884 7.80075V9.32503H11.2641V7.80075ZM10.3758 13.8531C10.8199 13.8531 11.1654 14.1669 11.1654 14.5704C11.1654 14.9738 10.8199 15.2877 10.3758 15.2877C9.93168 15.2877 9.58625 14.9738 9.58625 14.5704C9.58625 14.1669 9.93168 13.8531 10.3758 13.8531ZM1.88804 34.3412L4.6515 10.8941H9.48756V12.3736C8.50061 12.6874 7.80974 13.5392 7.80974 14.5255C7.80974 15.7808 8.94473 16.812 10.3265 16.812C11.7082 16.812 12.8432 15.7808 12.8432 14.5255C12.8432 13.5392 12.1523 12.6874 11.1654 12.3736V10.8941H24.7853V12.3736C23.7983 12.6874 23.1075 13.5392 23.1075 14.5255C23.1075 15.7808 24.2425 16.812 25.6242 16.812C27.0059 16.812 28.1409 15.7808 28.1409 14.5255C28.1409 13.5392 27.45 12.6874 26.4631 12.3736V10.8941H31.4965L34.26 34.3412H1.88804Z"/>
+                  </svg>
+                </a>
+            </div>
         </div>
     </header>
 
     <main class="main">
         <section class="catalog">
-            <div class="container"></div>
-            <h2 class="catalig__title">Каталог</h2>
+            <div class="container">
+            <h2 class="catalog__title">Каталог</h2>
             <div class="catalog__container">
-                <div class="catalog__goods goods"></div>
+                <div class="catalog__goods goods">
                 <ul class="goods__list">
-                    <li class="goods__item">
-                        <article class="goods-item"></article>
+                    <li class="goods-item">
+                       <article class="goods-item">
                         <a href="card.html">
-                            <img class="goods__item__image" src="img/phone.jpg" alt="Good">
-                            <h3 class="goods__item__title">Смартфон APPLE iPhone 12 64GB Purple</h3>
+                          <img class="goods-item__image" src="img/phone.jpg" alt="Good">
+                          <h3 class="goods-item__title">Смартфон APPLE iPhone 12 64GB Purple</h3>
                         </a>
                         <div class="goods-item__buy">
                             <p class="goods-item__price">120 999 ₽</p>
                             <button class="goods-item__to_cart">В корзину</button>
                         </div>
+                       </article>
                     </li>
-                    <li class="goods__item">
-                        <article class="goods-item"></article>
+                    <li class="goods-item">
+                        <article class="goods-item">
                         <a href="card.html">
-                            <img class="goods__item__image" src="img/phone.jpg" alt="Good">
-                            <h3 class="goods__item__title">Смартфон APPLE iPhone 12 64GB Purple</h3>
+                            <img class="goods-item__image" src="img/phone.jpg" alt="Good">
+                            <h3 class="goods-item__title">Смартфон APPLE iPhone 12 64GB Purple</h3>
                         </a>
                         <div class="goods-item__buy">
                             <p class="goods-item__price">120 999 ₽</p>
                             <button class="goods-item__to_cart">В корзину</button>
                         </div>
+                        </article>
                     </li>
-                    <li class="goods__item">
-                        <article class="goods-item"></article>
+                    <li class="goods-item">
+                        <article class="goods-item">
                         <a href="card.html">
-                            <img class="goods__item__image" src="img/phone.jpg" alt="Good">
-                            <h3 class="goods__item__title">Смартфон APPLE iPhone 12 64GB Purple</h3>
+                            <img class="goods-item__image" src="img/phone.jpg" alt="Good">
+                            <h3 class="goods-item__title">Смартфон APPLE iPhone 12 64GB Purple</h3>
                         </a>
                         <div class="goods-item__buy">
                             <p class="goods-item__price">120 999 ₽</p>
                             <button class="goods-item__to_cart">В корзину</button>
                         </div>
-                    </li>
-                    <li class="goods__item">
-                        <article class="goods-item"></article>
+                        </article>
+                    </li><li class="goods-item">
+                    <article class="goods-item">
                         <a href="card.html">
-                            <img class="goods__item__image" src="img/phone.jpg" alt="Good">
-                            <h3 class="goods__item__title">Смартфон APPLE iPhone 12 64GB Purple</h3>
+                            <img class="goods-item__image" src="img/phone.jpg" alt="Good">
+                            <h3 class="goods-item__title">Смартфон APPLE iPhone 12 64GB Purple</h3>
                         </a>
                         <div class="goods-item__buy">
                             <p class="goods-item__price">120 999 ₽</p>
                             <button class="goods-item__to_cart">В корзину</button>
                         </div>
+                    </article>
+                </li>
+                    <li class="goods-item">
+                        <article class="goods-item">
+                            <a href="card.html">
+                                <img class="goods-item__image" src="img/phone.jpg" alt="Good">
+                                <h3 class="goods-item__title">Смартфон APPLE iPhone 12 64GB Purple</h3>
+                            </a>
+                            <div class="goods-item__buy">
+                                <p class="goods-item__price">120 999 ₽</p>
+                                <button class="goods-item__to_cart">В корзину</button>
+                            </div>
+                        </article>
                     </li>
-                    <li class="goods__item">
-                        <article class="goods-item"></article>
-                        <a href="card.html">
-                            <img class="goods__item__image" src="img/phone.jpg" alt="Good">
-                            <h3 class="goods__item__title">Смартфон APPLE iPhone 12 64GB Purple</h3>
-                        </a>
-                        <div class="goods-item__buy">
-                            <p class="goods-item__price">120 999 ₽</p>
-                            <button class="goods-item__to_cart">В корзину</button>
-                        </div>
+                    <li class="goods-item">
+                        <article class="goods-item">
+                            <a href="card.html">
+                                <img class="goods-item__image" src="img/phone.jpg" alt="Good">
+                                <h3 class="goods-item__title">Смартфон APPLE iPhone 12 64GB Purple</h3>
+                            </a>
+                            <div class="goods-item__buy">
+                                <p class="goods-item__price">120 999 ₽</p>
+                                <button class="goods-item__to_cart">В корзину</button>
+                            </div>
+                        </article>
                     </li>
-                    <li class="goods__item">
-                        <article class="goods-item"></article>
-                        <a href="card.html">
-                            <img class="goods__item__image" src="img/phone.jpg" alt="Good">
-                            <h3 class="goods__item__title">Смартфон APPLE iPhone 12 64GB Purple</h3>
-                        </a>
-                        <div class="goods-item__buy">
-                            <p class="goods-item__price">120 999 ₽</p>
-                            <button class="goods-item__to_cart">В корзину</button>
-                        </div>
+                    <li class="goods-item">
+                        <article class="goods-item">
+                            <a href="card.html">
+                                <img class="goods-item__image" src="img/phone.jpg" alt="Good">
+                                <h3 class="goods-item__title">Смартфон APPLE iPhone 12 64GB Purple</h3>
+                            </a>
+                            <div class="goods-item__buy">
+                                <p class="goods-item__price">120 999 ₽</p>
+                                <button class="goods-item__to_cart">В корзину</button>
+                            </div>
+                        </article>
                     </li>
-                    <li class="goods__item">
-                        <article class="goods-item"></article>
-                        <a href="card.html">
-                            <img class="goods__item__image" src="img/phone.jpg" alt="Good">
-                            <h3 class="goods__item__title">Смартфон APPLE iPhone 12 64GB Purple</h3>
-                        </a>
-                        <div class="goods-item__buy">
-                            <p class="goods-item__price">120 999 ₽</p>
-                            <button class="goods-item__to_cart">В корзину</button>
-                        </div>
+                    <li class="goods-item">
+                        <article class="goods-item">
+                            <a href="card.html">
+                                <img class="goods-item__image" src="img/phone.jpg" alt="Good">
+                                <h3 class="goods-item__title">Смартфон APPLE iPhone 12 64GB Purple</h3>
+                            </a>
+                            <div class="goods-item__buy">
+                                <p class="goods-item__price">120 999 ₽</p>
+                                <button class="goods-item__to_cart">В корзину</button>
+                            </div>
+                        </article>
                     </li>
-                    <li class="goods__item">
-                        <article class="goods-item"></article>
-                        <a href="card.html">
-                            <img class="goods__item__image" src="img/phone.jpg" alt="Good">
-                            <h3 class="goods__item__title">Смартфон APPLE iPhone 12 64GB Purple</h3>
-                        </a>
-                        <div class="goods-item__buy">
-                            <p class="goods-item__price">120 999 ₽</p>
-                            <button class="goods-item__to_cart">В корзину</button>
-                        </div>
+                    <li class="goods-item">
+                        <article class="goods-item">
+                            <a href="card.html">
+                                <img class="goods-item__image" src="img/phone.jpg" alt="Good">
+                                <h3 class="goods-item__title">Смартфон APPLE iPhone 12 64GB Purple</h3>
+                            </a>
+                            <div class="goods-item__buy">
+                                <p class="goods-item__price">120 999 ₽</p>
+                                <button class="goods-item__to_cart">В корзину</button>
+                            </div>
+                        </article>
                     </li>
-                    <li class="goods__item">
-                        <article class="goods-item"></article>
-                        <a href="card.html">
-                            <img class="goods__item__image" src="img/phone.jpg" alt="Good">
-                            <h3 class="goods__item__title">Смартфон APPLE iPhone 12 64GB Purple</h3>
-                        </a>
-                        <div class="goods-item__buy">
-                            <p class="goods-item__price">120 999 ₽</p>
-                            <button class="goods-item__to_cart">В корзину</button>
-                        </div>
-                    </li>
-                    <li class="goods__item">
-                        <article class="goods-item"></article>
-                        <a href="card.html">
-                            <img class="goods__item__image" src="img/phone.jpg" alt="Good">
-                            <h3 class="goods__item__title">Смартфон APPLE iPhone 12 64GB Purple</h3>
-                        </a>
-                        <div class="goods-item__buy">
-                            <p class="goods-item__price">120 999 ₽</p>
-                            <button class="goods-item__to_cart">В корзину</button>
-                        </div>
-                    </li>
-                    <li class="goods__item">
-                        <article class="goods-item"></article>
-                        <a href="card.html">
-                            <img class="goods__item__image" src="img/phone.jpg" alt="Good">
-                            <h3 class="goods__item__title">Смартфон APPLE iPhone 12 64GB Purple</h3>
-                        </a>
-                        <div class="goods-item__buy">
-                            <p class="goods-item__price">120 999 ₽</p>
-                            <button class="goods-item__to_cart">В корзину</button>
-                        </div>
-                    </li>
-                    <li class="goods__item">
-                        <article class="goods-item"></article>
-                        <a href="card.html">
-                            <img class="goods__item__image" src="img/phone.jpg" alt="Good">
-                            <h3 class="goods__item__title">Смартфон APPLE iPhone 12 64GB Purple</h3>
-                        </a>
-                        <div class="goods-item__buy">
-                            <p class="goods-item__price">120 999 ₽</p>
-                            <button class="goods-item__to_cart">В корзину</button>
-                        </div>
-                    </li>
+
+
                 </ul>
+                </div>
                 <aside class="catalog__filter filter">
                     <form class="filter__form">
                         <h3 class="filter__title">Фильтры</h3>
@@ -195,9 +176,10 @@
                         </fieldset>
                         <fieldset class="filter__field">
                             <legend class="filter__field-title">Категория</legend>
-                            <label>
-                                    <select class="filter__select" name="category">
-                                       <option value="phone">Смартфоны</option>
+                                <label>
+                                    <select class="filter__input filter__input_select" name="category">
+                                        <option value="all" selected>Все категории</option>
+                                        <option value="phone">Смартфоны</option>
                                        <option value="tab">Планшеты</option>
                                        <option value="clock">Умные часы</option>
                                        <option value="monoblock">Моноблоки</option>
@@ -212,9 +194,9 @@
                                 <label><input type="number" name="diagonal-price-end" placeholder="до" class="filter__input"></label>
                             </div>
                         </fieldset>
-                        <fieldset class="filter__field">
+                        <fieldset class="filter__field filter__field_output">
                             <legend class="filter__field-title">Цвет</legend>
-                            <div class="filter__flex">
+                            <div class="filter__flex filter__flex_column">
                                 <label>
                                     <input name="color" value="white" class="filter__checkbox" type="checkbox">Белый
                                 </label>
@@ -239,78 +221,80 @@
                         <button class="filter__reset" type="submit">Очистить все</button>
                     </form>
                 </aside>
+            </div>
                 <div class="catalog__pagination pagination">
-                    <a href="#" class="pagination__arrow pagination__arrow_start" area-label="Перейти на первую страницу"></a>
+                    <a href="" class="pagination__arrow pagination__arrow_start" area-label="Перейти на первую страницу"></a>
 
                     <ul class="pagination__list">
                         <li class="pagination__item">
-                            <a href="pagination__link pagination__link_active">1</a>
+                            <a href="#" class="pagination__link pagination__link_active">1</a>
                         </li>
                         <li class="pagination__item">
-                            <a href="pagination__link">2</a>
+                            <a href="#" class="pagination__link ">2</a>
                         </li>
                         <li class="pagination__item">
-                            <a href="pagination__link">3</a>
+                            <a href="#" class="pagination__link">3</a>
                         </li>
                         <li class="pagination__item">
-                            <a href="pagination__link">4</a>
+                            <a href="#" class="pagination__link">4</a>
                         </li>
                         <li class="pagination__item">
-                            <a href="pagination__link">5</a>
+                            <a href="#" class="pagination__link">5</a>
                         </li>
                         <li class="pagination__item">
-                            <a href="pagination__link">6</a>
+                            <a href="" class="pagination__link">6</a>
                         </li>
                     </ul>
 
                     <a href="#" class="pagination__arrow pagination__arrow_end" area-label="Перейти на последнюю страницу"></a>
                 </div>
             </div>
+
         </section>
 
     </main>
 
     <footer class="footer">
         <h2 class="visually-hidden">Подвал сайта</h2>
-        <div class="container">
-            <a href="/">
+        <div class="container footer__container">
+            <a class="footer__logo-link" href="/">
                 <img class="footer__logo" src="img/logo.svg" alt="Логотип TechnoShop">
             </a>
             <div class="footer__column">
                 <h3 class="footer__column-title">Каталог</h3>
                 <ul class="footer__list footer__list_double">
-                    <li class="footer__item"><a href="#">Смартфоны</a></li>
-                    <li class="footer__item"><a href="#">Планшеты</a></li>
-                    <li class="footer__item"><a href="#">Умные часы</a></li>
-                    <li class="footer__item"><a href="#">Моноблоки</a></li>
-                    <li class="footer__item"><a href="#">Ноутбуки</a></li>
-                    <li class="footer__item"><a href="#">Электронные книги</a></li>
-                    <li class="footer__item"><a href="#">Мониторы</a></li>
-                    <li class="footer__item"><a href="#">Смарт-приставки</a></li>
-                    <li class="footer__item"><a href="#">Процессоры</a></li>
+                    <li class="footer__item"><a class="footer__link" href="#">Смартфоны</a></li>
+                    <li class="footer__item"><a class="footer__link" href="#">Планшеты</a></li>
+                    <li class="footer__item"><a class="footer__link" href="#">Умные часы</a></li>
+                    <li class="footer__item"><a class="footer__link" href="#">Моноблоки</a></li>
+                    <li class="footer__item"><a class="footer__link" href="#">Ноутбуки</a></li>
+                    <li class="footer__item"><a class="footer__link" href="#">Электронные книги</a></li>
+                    <li class="footer__item"><a class="footer__link" href="#">Мониторы</a></li>
+                    <li class="footer__item"><a class="footer__link" href="#">Смарт-приставки</a></li>
+                    <li class="footer__item"><a class="footer__link" href="#">Процессоры</a></li>
                 </ul>
             </div>
             <div class="footer__column">
-                <h3 class="footer__column-title">Покупатели</h3>
+                <h3 class="footer__column-title">Покупателям</h3>
                 <ul class="footer__list">
-                    <li class="footer__item"><a href="#">Оплата заказа</a></li>
-                    <li class="footer__item"><a href="#">Условия доставки</a></li>
-                    <li class="footer__item"><a href="#">Условия возврата заказа</a></li>
-                    <li class="footer__item"><a href="#">Блог</a></li>
+                    <li class="footer__item"><a class="footer__link" href="#">Оплата заказа</a></li>
+                    <li class="footer__item"><a class="footer__link" href="#">Условия доставки</a></li>
+                    <li class="footer__item"><a class="footer__link" href="#">Условия возврата заказа</a></li>
+                    <li class="footer__item"><a class="footer__link" href="#">Блог</a></li>
                 </ul>
             </div>
 
             <div class="footer__column">
                 <h3 class="footer__column-title">Контакты</h3>
                 <ul class="footer__list footer__list-contacts">
-                    <li class="footer__item">Тел:
-                        <a href="tel:89149239223">8 914 923 92 - 23</a>
+                    <li class="footer__item footer__item_contact">Тел:
+                        <a class="footer__link" href="tel:89149239223">8 914 923 92 - 23</a>
                     </li>
-                    <li class="footer__item">Email:
-                        <a href="mailto:TechnoSHOP@gmail.com">TechnoSHOP@gmail.com</a>
+                    <li class="footer__item footer__item_contact">Email:
+                        <a class="footer__link" href="mailto:TechnoSHOP@gmail.com">TechnoSHOP@gmail.com</a>
                     </li>
                 </ul>
-                <ul class="footer_social social">
+                <ul class="footer__social social">
                     <li class="social__item">
                         <a href="#" class="social__link" area-label="Отправить сообщение в Whatsapp">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -335,34 +319,41 @@
                     </li>
                 </ul>
             </div>
+            <p class="footer__info">© TechnoSHOP, 2022</p>
+            <div></div>
+            <div></div>
+            <div class="footer__info">
+                <p class="footer__info">Design by Anastasia Ilina</p>
+                <p class="footer__info">Tg: @Mrshmallowww</p>
+            </div>
         </div>
     </footer>
 
-    <div class="order__status">
-        <div class="order__status__success visually-hidden">
-            <h3 class="order__status__title">
-                Ваша заявка успешно отправлена
-            </h3>
-            <p class="order__status__text">
-                Наши менеджеры свяжутся с вами в течении 3-х рабочих дней
-            </p>
-            <svg width="100" height="100" viewBox="0 0 100 100" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+<div class="order__status">
+    <div class="order__status__success visually-hidden">
+        <h3 class="order__status__title">
+        Ваша заявка успешно отправлена
+        </h3>
+        <p class="order__status__text">
+            Наши менеджеры свяжутся с вами в течении 3-х рабочих дней
+        </p>
+        <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="50" cy="50" r="50" fill="#04E277"/>
-            <path d="M42.262 60.8333L31.4286 50L27.8175 53.6111L42.262 68.0556L73.2143 37.1032L69.6032 33.4921L42.262 60.8333Z"/>
+            <path d="M42.262 60.8333L31.4286 50L27.8175 53.6111L42.262 68.0556L73.2143 37.1032L69.6032 33.4921L42.262 60.8333Z" fill="white"/>
         </svg>
-        </div>
-        <div class="order__status__failure visually-hidden">
-            <h3 class="order__status__title">
-                Упс... Что-то пошло не так
-            </h3>
-            <p class="order__status__text">
-                Не удалось отправить заявку. Пожалуйста, повторите отправку еще раз
-            </p>
-            <svg width="100" height="100" viewBox="0 0 100 100" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path d="M50 0C22.3857 0 0 22.3857 0 50C0 77.6143 22.3857 100 50 100C77.6143 100 100 77.6143 100 50C100 22.3857 77.6143 0 50 0ZM50 13.6718C70.0635 13.6718 86.3282 29.9365 86.3282 50C86.3282 70.0635 70.0635 86.3282 50 86.3282C29.9365 86.3282 13.6718 70.0635 13.6718 50C13.6718 29.9365 29.9365 13.6718 50 13.6718ZM23.4558 40.1794V59.8205H76.5442V40.1794H23.4558Z"/>
-        </svg>
-        </div>
     </div>
+    <div class="order__status__failure visually-hidden">
+        <h3 class="order__status__title">
+            Упс... Что-то пошло не так
+        </h3>
+        <p class="order__status__text">
+            Не удалось отправить заявку. Пожалуйста, повторите отправку еще раз
+        </p>
+        <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M50 0C22.3857 0 0 22.3857 0 50C0 77.6143 22.3857 100 50 100C77.6143 100 100 77.6143 100 50C100 22.3857 77.6143 0 50 0ZM50 13.6718C70.0635 13.6718 86.3282 29.9365 86.3282 50C86.3282 70.0635 70.0635 86.3282 50 86.3282C29.9365 86.3282 13.6718 70.0635 13.6718 50C13.6718 29.9365 29.9365 13.6718 50 13.6718ZM23.4558 40.1794V59.8205H76.5442V40.1794H23.4558Z" fill="#EB5757"/>
+        </svg>
+    </div>
+</div>
 
 
 </body>
